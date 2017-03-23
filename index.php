@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 	
 	define('APP_DEBUG', true);
 	define('APP_NAME', 'Index');
@@ -6,5 +6,5 @@
 	require './ThinkPHP/ThinkPHP.php';
 
 
-  //ע��
+  //注释测试
 ?>
