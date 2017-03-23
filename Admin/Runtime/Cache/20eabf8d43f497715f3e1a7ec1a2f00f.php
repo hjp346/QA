@@ -1,0 +1,71 @@
+<?php if (!defined('THINK_PATH')) exit();?><!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>后台管理</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link href="__PUBLIC__/css/bootstrap.min.css" rel="stylesheet" media="screen">
+<link rel="stylesheet" href="__PUBLIC__/css/backstage.css">
+<script type="text/javascript" src="__PUBLIC__/js/jquery.min.js"></script>
+<base target="iframe"/>
+</head>
+
+<body>
+
+    <div class="head" style="background-color:#4AB0CE">
+            <a target="_self" href="<?php echo U('Login/logout');?>"  class=" btn " style="float:right;margin-top:16px;">退出系统</a>
+            <h3 class="head_text" >问答系统后台管理</h3>
+
+    </div>
+
+    
+    <div class="content clearfix">
+        <div class="main">
+            <!--右侧内容-->
+            <div class="cont">
+                <div class="title"></div>
+                 <iframe src="" name="iframe" style="width:100%;height:500px; "></iframe>
+            </div>
+        </div>
+        <!--左侧列表-->
+        <div class="menu" style="background-color:#4AB0CE">
+            <div class="cont">
+                <div class="title">管理员:       <?php echo ($_SESSION['uname']); ?></div>
+                <ul class="mList">
+                    <li>
+                        <h3>分类管理</h3>
+                        <dl>
+                            <dd><a href="<?php echo U('Category/index');?>">分类列表</a></dd>
+                            <dd><a href="<?php echo U('Category/addTop');?>">添加顶级分类</a></dd>
+                        </dl>
+                    </li>
+                    <li> 
+                        <h3>经验管理</h3>
+                        <dl>
+                            <dd><a href="<?php echo U('Reward/index');?>">经验奖励</a></dd>
+                            <dd><a href="<?php echo U('Reward/level');?>">经验级别</a></dd>
+                          
+                        </dl>
+                    </li>
+                       <li>
+                        <h3>问题管理</h3>
+                        <dl>
+                            <dd><a href="<?php echo U('Ask/index');?>">所有问题</a></dd>
+                              <dd><a href="<?php echo U('Answer/index');?>">所有回答</a></dd>
+                        </dl>
+                    </li>
+                       <li>
+                        <h3>用户管理</h3>
+                        <dl>
+                          
+                            <dd><a href="<?php echo U('User/index');?>">用户列表</a></dd>
+                           
+                        </dl>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

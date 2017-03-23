@@ -1,0 +1,19 @@
+[ 2016-06-04T18:43:09+08:00 ] /QA/ | INFO: Tag[ app_begin ] --START--
+[ 2016-06-04T18:43:09+08:00 ] /QA/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.052003s ]
+[ 2016-06-04T18:43:09+08:00 ] /QA/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.052003s ]
+[ 2016-06-04T18:43:09+08:00 ] /QA/ | INFO: Tag[ view_template ] --START--
+[ 2016-06-04T18:43:09+08:00 ] /QA/ | INFO: Run LocationTemplate Behavior [ RunTime:0.002000s ]
+[ 2016-06-04T18:43:09+08:00 ] /QA/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.003000s ]
+[ 2016-06-04T18:43:09+08:00 ] /QA/ | INFO: Tag[ view_parse ] --START--
+[ 2016-06-04T18:43:09+08:00 ] /QA/ | NOTIC: [8] Undefined variable: v f9c22b8b40e560036663a0ce7ed378ae.php 第 296 行.
+[ 2016-06-04T18:43:09+08:00 ] /QA/ | INFO: Run ParseTemplate Behavior [ RunTime:0.105006s ]
+[ 2016-06-04T18:43:09+08:00 ] /QA/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.105006s ]
+[ 2016-06-04T18:43:09+08:00 ] /QA/ | INFO: Tag[ view_filter ] --START--
+[ 2016-06-04T18:43:09+08:00 ] /QA/ | INFO: Run ContentReplace Behavior [ RunTime:0.002000s ]
+[ 2016-06-04T18:43:09+08:00 ] /QA/ | INFO: Run TokenBuild Behavior [ RunTime:0.001001s ]
+[ 2016-06-04T18:43:09+08:00 ] /QA/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.002000s ]
+[ 2016-06-04T18:43:09+08:00 ] /QA/ | INFO: Run ShowRuntime Behavior [ RunTime:0.002000s ]
+[ 2016-06-04T18:43:09+08:00 ] /QA/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.007001s ]
+[ 2016-06-04T18:43:09+08:00 ] /QA/ | INFO: Tag[ view_end ] --START--
+[ 2016-06-04T18:43:10+08:00 ] /QA/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.021001s ]
+[ 2016-06-04T18:43:10+08:00 ] /QA/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.021001s ]

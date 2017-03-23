@@ -1,0 +1,21 @@
+[ 2016-08-16T17:41:19+08:00 ] /QA/admin.php/Login/index | INFO: Tag[ route_check ] --START--
+[ 2016-08-16T17:41:19+08:00 ] /QA/admin.php/Login/index | INFO: Run CheckRoute Behavior [ RunTime:0.033002s ]
+[ 2016-08-16T17:41:19+08:00 ] /QA/admin.php/Login/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.033002s ]
+[ 2016-08-16T17:41:19+08:00 ] /QA/admin.php/Login/index | INFO: Tag[ app_begin ] --START--
+[ 2016-08-16T17:41:19+08:00 ] /QA/admin.php/Login/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-08-16T17:41:19+08:00 ] /QA/admin.php/Login/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001000s ]
+[ 2016-08-16T17:41:19+08:00 ] /QA/admin.php/Login/index | INFO: Tag[ view_template ] --START--
+[ 2016-08-16T17:41:19+08:00 ] /QA/admin.php/Login/index | INFO: Run LocationTemplate Behavior [ RunTime:0.004000s ]
+[ 2016-08-16T17:41:19+08:00 ] /QA/admin.php/Login/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.004000s ]
+[ 2016-08-16T17:41:19+08:00 ] /QA/admin.php/Login/index | INFO: Tag[ view_parse ] --START--
+[ 2016-08-16T17:41:19+08:00 ] /QA/admin.php/Login/index | INFO: Run ParseTemplate Behavior [ RunTime:0.111007s ]
+[ 2016-08-16T17:41:19+08:00 ] /QA/admin.php/Login/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.111007s ]
+[ 2016-08-16T17:41:19+08:00 ] /QA/admin.php/Login/index | INFO: Tag[ view_filter ] --START--
+[ 2016-08-16T17:41:19+08:00 ] /QA/admin.php/Login/index | INFO: Run ContentReplace Behavior [ RunTime:0.002000s ]
+[ 2016-08-16T17:41:19+08:00 ] /QA/admin.php/Login/index | INFO: Run TokenBuild Behavior [ RunTime:0.002000s ]
+[ 2016-08-16T17:41:19+08:00 ] /QA/admin.php/Login/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.002000s ]
+[ 2016-08-16T17:41:19+08:00 ] /QA/admin.php/Login/index | INFO: Run ShowRuntime Behavior [ RunTime:0.002000s ]
+[ 2016-08-16T17:41:19+08:00 ] /QA/admin.php/Login/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.009000s ]
+[ 2016-08-16T17:41:19+08:00 ] /QA/admin.php/Login/index | INFO: Tag[ view_end ] --START--
+[ 2016-08-16T17:41:19+08:00 ] /QA/admin.php/Login/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.002000s ]
+[ 2016-08-16T17:41:19+08:00 ] /QA/admin.php/Login/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.002000s ]

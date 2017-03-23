@@ -1,0 +1,138 @@
+
+<!--HTML head头部-->
+<include file="Common:head"/>
+<script type="text/javascript">
+  var on=false;
+
+<if condition='isset($_SESSION["uid"]) && isset($_SESSION["username"])'>
+      on = true;
+
+</if>
+
+  $(function (){
+    $('.reply').click(
+           function (){
+            $(this).next().show();
+           }
+      );
+      $('#rp').click(
+         function (){
+          if(!on){
+            alert("未登录！");
+            return false;
+          }
+
+         } 
+      );
+  });
+</script>
+  <body>
+    <!--导航、搜索栏-->
+<include file="Common:top"/>
+<!--内容页-->
+<div class="row-fluid">
+    <div class="span9">
+      <!--Sidebar content-->
+        <div class="answer-info">
+          <blockquote>
+          <if condition="!$ask['solve']">
+            <p class="text-error">未解决<p>
+          <else/>
+             <p class="text-success">已解决<p>
+           </if>
+            </blockquote>
+          <h6><pre>{$ask.ask_content}</pre></h6><br>
+           <div style="font-size:14px;">
+          <span><a href="{:U('Member/index',array('id'=>$ask['uid']))}">{$ask.username}</a></span> <span style="margin-left:20px;">悬赏:{$ask.money_reward}金币</span> <span style="margin-left:20px;">{$ask.ask_time|time_format=###}</span>
+          </div>
+        </div>
+        <if condition="isset($_SESSION['username']) && !$ask.solve && $_SESSION['uid'] != $ask.uid ">
+        <div class="my-answer" style="margin-top:40px;">
+          <blockquote>
+            <p>我来回答</p>
+          </blockquote>
+          <form action="{:U('answer')}" method="post">
+            <textarea name="answer_content" style="width:600px;height:150px;"></textarea><br>
+            
+           <div style="padding-left:520px; padding-top:5px;">
+           <input type="hidden" name="aid" value="{$ask.id}">
+            <input type="submit" class="btn btn-success" value="提交回答">
+      
+          </div> 
+          </form>
+        </div>
+      </if>
+      <if condition="$bingo">
+      <div class="true-answer" style="margin-top:40px;">
+          <blockquote><p class="text-success">满意回答</p></blockquote>
+          <div style="font-size:14px;">
+          
+
+     
+           <h5><a href="{:U('Member/index',array('id'=>$bingo['uid']))}">{$bingo.username}</a></h5>
+
+    
+           <span style="margin-left:18px;color:green;font-size:14px;"><pre>{$bingo.answer_content}</pre></span>
+           <span style="margin-left:18px;font-size:14px;">({$bingo.answer_time|time_format=###})</span>
+           </div>
+           <foreach name="reply" item="value">
+            <if condition="$value['aid'] eq $bingo['id']">
+             <br>
+          <a href="{:U('Member/index',array('id'=>$value['uid']))}">{$value.username}</a><span style="margin-left:5px;">回复:</span> <span style="margin-left:10px;color:green;">{$value.reply_msg} </span>({$value.reply_time|time_format=###})
+          
+            </if>
+           </foreach>
+      </div>
+    </if>
+        <div class="all-answer" style="margin-top:40px;">
+          <blockquote><p>全部回答</p></blockquote>
+          <ul>
+            <li>
+          <div >
+            <foreach name="answer" item="v">
+           <pre><h5><a href="{:U('Member/index',array('id'=>$v['uid']))}">{$v.username}</a></h5><span style="margin-left:10px;">{$v.answer_content}</span><span  style="color:blue;">({$v.answer_time|time_format=###})</span></pre>
+          <button class="reply btn">回复</button> <form action="{:U('Show/reply',array('aid'=>$v['id']))}" method="post" style="display:none;">
+             <textarea name="replymsg"></textarea><br>
+             <input type="submit" value="提交" id="rp" class="btn">
+           </form></span>
+           <foreach name="reply" item="vv">
+             <if condition="$vv['aid'] eq $v['id']">
+             <br>
+          <a href="{:U('Member/index',array('id'=>$vv['uid']))}">{$vv.username}</a><span style="margin-left:5px;">回复:</span> <span style="margin-left:10px;color:green;">{$vv.reply_msg} </span>({$vv.reply_time|time_format=###})
+            </if>
+           </foreach>
+         
+           
+           <br/>
+           <if condition="isset($_SESSION['username']) && $_SESSION['uid'] == $ask.uid && !$ask.solve ">
+                  <a href="{:U('adopt', array('id' => $v['id'], 'qid' => $ask['id'], 'uid' => $v['uid']))}" class="btn">采纳</a> 
+                  
+                 
+           </if>
+         </foreach>
+        
+          </div>
+          
+        </li>
+      </ul>
+        </div>
+         
+        
+
+
+    </div>
+
+    <div class="span3" >
+      <!--Body content-->
+
+
+      <div>
+
+
+
+<!--遮罩框（登录、注册）-->
+<include file="Common:zhezhao"/>
+
+  </body>
+</html>
+                

@@ -1,0 +1,30 @@
+
+<!--HTML head头部-->
+<include file="Common:head"/>
+
+  <body>
+        <!--导航、搜索栏-->
+<include file="Common:top"/>
+     <table class='table table-bordered'>
+      <tr style="background-color:#DFF0DB">
+        
+          <td width="500">搜索到的问题</td>
+         <td> 回答数</td>
+         <td>时间</td>
+        
+        <foreach name='ask' item='v'>
+          <tr>
+            <td width="500"><a href="{:U('Show/index',array('id'=>$v['id']))}">{$v.ask_content}</a></td>
+            <td><span>{$v.answer}</span></td>
+            <td>{$v.ask_time|date="Y-m-d H:i",###}</td>
+          </tr>
+        </foreach>
+        
+      </dl>
+    </table>
+   <tr><td>{$page}</td></tr>
+    <!--遮罩框（登录、注册）-->
+<include file="Common:zhezhao"/>
+
+  </body>
+</html>

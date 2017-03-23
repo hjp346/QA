@@ -1,0 +1,73 @@
+[ 2017-03-18T23:18:07+08:00 ] /QA/admin.php/Login/index | INFO: Tag[ route_check ] --START--
+[ 2017-03-18T23:18:07+08:00 ] /QA/admin.php/Login/index | INFO: Run CheckRoute Behavior [ RunTime:0.002483s ]
+[ 2017-03-18T23:18:07+08:00 ] /QA/admin.php/Login/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.002592s ]
+[ 2017-03-18T23:18:07+08:00 ] /QA/admin.php/Login/index | INFO: Tag[ app_begin ] --START--
+[ 2017-03-18T23:18:07+08:00 ] /QA/admin.php/Login/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001234s ]
+[ 2017-03-18T23:18:07+08:00 ] /QA/admin.php/Login/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001294s ]
+[ 2017-03-18T23:18:07+08:00 ] /QA/admin.php/Login/index | INFO: Tag[ view_template ] --START--
+[ 2017-03-18T23:18:07+08:00 ] /QA/admin.php/Login/index | INFO: Run LocationTemplate Behavior [ RunTime:0.002081s ]
+[ 2017-03-18T23:18:07+08:00 ] /QA/admin.php/Login/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.002164s ]
+[ 2017-03-18T23:18:07+08:00 ] /QA/admin.php/Login/index | INFO: Tag[ view_parse ] --START--
+[ 2017-03-18T23:18:07+08:00 ] /QA/admin.php/Login/index | INFO: Run ParseTemplate Behavior [ RunTime:0.015243s ]
+[ 2017-03-18T23:18:07+08:00 ] /QA/admin.php/Login/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.015323s ]
+[ 2017-03-18T23:18:07+08:00 ] /QA/admin.php/Login/index | INFO: Tag[ view_filter ] --START--
+[ 2017-03-18T23:18:07+08:00 ] /QA/admin.php/Login/index | INFO: Run ContentReplace Behavior [ RunTime:0.001037s ]
+[ 2017-03-18T23:18:07+08:00 ] /QA/admin.php/Login/index | INFO: Run TokenBuild Behavior [ RunTime:0.000964s ]
+[ 2017-03-18T23:18:07+08:00 ] /QA/admin.php/Login/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000610s ]
+[ 2017-03-18T23:18:07+08:00 ] /QA/admin.php/Login/index | INFO: Run ShowRuntime Behavior [ RunTime:0.000976s ]
+[ 2017-03-18T23:18:07+08:00 ] /QA/admin.php/Login/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003770s ]
+[ 2017-03-18T23:18:07+08:00 ] /QA/admin.php/Login/index | INFO: Tag[ view_end ] --START--
+[ 2017-03-18T23:18:07+08:00 ] /QA/admin.php/Login/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.000987s ]
+[ 2017-03-18T23:18:07+08:00 ] /QA/admin.php/Login/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.001049s ]
+[ 2017-03-18T23:18:07+08:00 ] /QA/admin.php/Login/verify | INFO: Tag[ route_check ] --START--
+[ 2017-03-18T23:18:07+08:00 ] /QA/admin.php/Login/verify | INFO: Run CheckRoute Behavior [ RunTime:0.001593s ]
+[ 2017-03-18T23:18:07+08:00 ] /QA/admin.php/Login/verify | INFO: Tag[ route_check ] --END-- [ RunTime:0.001708s ]
+[ 2017-03-18T23:18:07+08:00 ] /QA/admin.php/Login/verify | INFO: Tag[ app_begin ] --START--
+[ 2017-03-18T23:18:07+08:00 ] /QA/admin.php/Login/verify | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001184s ]
+[ 2017-03-18T23:18:07+08:00 ] /QA/admin.php/Login/verify | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001261s ]
+[ 2017-03-18T23:18:18+08:00 ] /QA/admin.php/Index/index | INFO: Tag[ route_check ] --START--
+[ 2017-03-18T23:18:18+08:00 ] /QA/admin.php/Index/index | INFO: Run CheckRoute Behavior [ RunTime:0.001745s ]
+[ 2017-03-18T23:18:18+08:00 ] /QA/admin.php/Index/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.001861s ]
+[ 2017-03-18T23:18:18+08:00 ] /QA/admin.php/Index/index | INFO: Tag[ app_begin ] --START--
+[ 2017-03-18T23:18:18+08:00 ] /QA/admin.php/Index/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001483s ]
+[ 2017-03-18T23:18:18+08:00 ] /QA/admin.php/Index/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001579s ]
+[ 2017-03-18T23:18:18+08:00 ] /QA/admin.php/Index/index | SQL: SHOW COLUMNS FROM `wl_category` [ RunTime:0.008330s ]
+[ 2017-03-18T23:18:18+08:00 ] /QA/admin.php/Index/index | SQL: SELECT * FROM `wl_category` LIMIT 1   [ RunTime:0.000793s ]
+[ 2017-03-18T23:18:18+08:00 ] /QA/admin.php/Index/index | INFO: Tag[ view_template ] --START--
+[ 2017-03-18T23:18:18+08:00 ] /QA/admin.php/Index/index | INFO: Run LocationTemplate Behavior [ RunTime:0.003228s ]
+[ 2017-03-18T23:18:18+08:00 ] /QA/admin.php/Index/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.003388s ]
+[ 2017-03-18T23:18:18+08:00 ] /QA/admin.php/Index/index | INFO: Tag[ view_parse ] --START--
+[ 2017-03-18T23:18:18+08:00 ] /QA/admin.php/Index/index | INFO: Run ParseTemplate Behavior [ RunTime:0.016031s ]
+[ 2017-03-18T23:18:18+08:00 ] /QA/admin.php/Index/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.016133s ]
+[ 2017-03-18T23:18:18+08:00 ] /QA/admin.php/Index/index | INFO: Tag[ view_filter ] --START--
+[ 2017-03-18T23:18:18+08:00 ] /QA/admin.php/Index/index | INFO: Run ContentReplace Behavior [ RunTime:0.000986s ]
+[ 2017-03-18T23:18:18+08:00 ] /QA/admin.php/Index/index | INFO: Run TokenBuild Behavior [ RunTime:0.000820s ]
+[ 2017-03-18T23:18:18+08:00 ] /QA/admin.php/Index/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000652s ]
+[ 2017-03-18T23:18:18+08:00 ] /QA/admin.php/Index/index | INFO: Run ShowRuntime Behavior [ RunTime:0.000937s ]
+[ 2017-03-18T23:18:18+08:00 ] /QA/admin.php/Index/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003599s ]
+[ 2017-03-18T23:18:18+08:00 ] /QA/admin.php/Index/index | INFO: Tag[ view_end ] --START--
+[ 2017-03-18T23:18:18+08:00 ] /QA/admin.php/Index/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.000922s ]
+[ 2017-03-18T23:18:18+08:00 ] /QA/admin.php/Index/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.000984s ]
+[ 2017-03-18T23:18:21+08:00 ] /QA/admin.php/Category/index | INFO: Tag[ route_check ] --START--
+[ 2017-03-18T23:18:21+08:00 ] /QA/admin.php/Category/index | INFO: Run CheckRoute Behavior [ RunTime:0.001302s ]
+[ 2017-03-18T23:18:21+08:00 ] /QA/admin.php/Category/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.001392s ]
+[ 2017-03-18T23:18:21+08:00 ] /QA/admin.php/Category/index | INFO: Tag[ app_begin ] --START--
+[ 2017-03-18T23:18:21+08:00 ] /QA/admin.php/Category/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001017s ]
+[ 2017-03-18T23:18:21+08:00 ] /QA/admin.php/Category/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001092s ]
+[ 2017-03-18T23:18:21+08:00 ] /QA/admin.php/Category/index | SQL: SHOW COLUMNS FROM `wl_category` [ RunTime:0.005873s ]
+[ 2017-03-18T23:18:21+08:00 ] /QA/admin.php/Category/index | SQL: SELECT * FROM `wl_category`  [ RunTime:0.000715s ]
+[ 2017-03-18T23:18:21+08:00 ] /QA/admin.php/Category/index | INFO: Tag[ view_template ] --START--
+[ 2017-03-18T23:18:21+08:00 ] /QA/admin.php/Category/index | INFO: Run LocationTemplate Behavior [ RunTime:0.002254s ]
+[ 2017-03-18T23:18:21+08:00 ] /QA/admin.php/Category/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.002326s ]
+[ 2017-03-18T23:18:21+08:00 ] /QA/admin.php/Category/index | INFO: Tag[ view_parse ] --START--
+[ 2017-03-18T23:18:21+08:00 ] /QA/admin.php/Category/index | INFO: Run ParseTemplate Behavior [ RunTime:0.017757s ]
+[ 2017-03-18T23:18:21+08:00 ] /QA/admin.php/Category/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.017865s ]
+[ 2017-03-18T23:18:21+08:00 ] /QA/admin.php/Category/index | INFO: Tag[ view_filter ] --START--
+[ 2017-03-18T23:18:21+08:00 ] /QA/admin.php/Category/index | INFO: Run ContentReplace Behavior [ RunTime:0.001325s ]
+[ 2017-03-18T23:18:21+08:00 ] /QA/admin.php/Category/index | INFO: Run TokenBuild Behavior [ RunTime:0.000828s ]
+[ 2017-03-18T23:18:21+08:00 ] /QA/admin.php/Category/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000683s ]
+[ 2017-03-18T23:18:21+08:00 ] /QA/admin.php/Category/index | INFO: Run ShowRuntime Behavior [ RunTime:0.000841s ]
+[ 2017-03-18T23:18:21+08:00 ] /QA/admin.php/Category/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003873s ]
+[ 2017-03-18T23:18:21+08:00 ] /QA/admin.php/Category/index | INFO: Tag[ view_end ] --START--
+[ 2017-03-18T23:18:21+08:00 ] /QA/admin.php/Category/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.001271s ]
+[ 2017-03-18T23:18:21+08:00 ] /QA/admin.php/Category/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.001372s ]

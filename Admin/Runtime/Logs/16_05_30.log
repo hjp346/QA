@@ -1,0 +1,121 @@
+[ 2016-05-30T20:30:23+08:00 ] /QA/admin.php | INFO: Tag[ app_begin ] --START--
+[ 2016-05-30T20:30:23+08:00 ] /QA/admin.php | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-05-30T20:30:23+08:00 ] /QA/admin.php | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002000s ]
+[ 2016-05-30T20:39:44+08:00 ] /QA/admin.php | INFO: Tag[ app_begin ] --START--
+[ 2016-05-30T20:39:44+08:00 ] /QA/admin.php | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+[ 2016-05-30T20:39:44+08:00 ] /QA/admin.php | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002000s ]
+[ 2016-05-30T20:39:45+08:00 ] /QA/admin.php | INFO: Tag[ app_begin ] --START--
+[ 2016-05-30T20:39:45+08:00 ] /QA/admin.php | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-05-30T20:39:45+08:00 ] /QA/admin.php | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002000s ]
+[ 2016-05-30T20:39:46+08:00 ] /QA/admin.php | INFO: Tag[ app_begin ] --START--
+[ 2016-05-30T20:39:46+08:00 ] /QA/admin.php | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-05-30T20:39:46+08:00 ] /QA/admin.php | INFO: Tag[ app_begin ] --END-- [ RunTime:0.003000s ]
+[ 2016-05-30T20:39:46+08:00 ] /QA/admin.php | INFO: Tag[ app_begin ] --START--
+[ 2016-05-30T20:39:46+08:00 ] /QA/admin.php | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-05-30T20:39:46+08:00 ] /QA/admin.php | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002000s ]
+[ 2016-05-30T20:39:47+08:00 ] /QA/admin.php | INFO: Tag[ app_begin ] --START--
+[ 2016-05-30T20:39:47+08:00 ] /QA/admin.php | INFO: Run ReadHtmlCache Behavior [ RunTime:0.005000s ]
+[ 2016-05-30T20:39:47+08:00 ] /QA/admin.php | INFO: Tag[ app_begin ] --END-- [ RunTime:0.005000s ]
+[ 2016-05-30T20:39:48+08:00 ] /QA/admin.php | INFO: Tag[ app_begin ] --START--
+[ 2016-05-30T20:39:48+08:00 ] /QA/admin.php | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+[ 2016-05-30T20:39:48+08:00 ] /QA/admin.php | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002000s ]
+[ 2016-05-30T20:39:48+08:00 ] /QA/admin.php | INFO: Tag[ app_begin ] --START--
+[ 2016-05-30T20:39:48+08:00 ] /QA/admin.php | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+[ 2016-05-30T20:39:48+08:00 ] /QA/admin.php | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002000s ]
+[ 2016-05-30T20:39:48+08:00 ] /QA/admin.php | INFO: Tag[ app_begin ] --START--
+[ 2016-05-30T20:39:48+08:00 ] /QA/admin.php | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+[ 2016-05-30T20:39:48+08:00 ] /QA/admin.php | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002000s ]
+[ 2016-05-30T20:39:49+08:00 ] /QA/admin.php | INFO: Tag[ app_begin ] --START--
+[ 2016-05-30T20:39:49+08:00 ] /QA/admin.php | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-05-30T20:39:49+08:00 ] /QA/admin.php | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001000s ]
+[ 2016-05-30T20:39:49+08:00 ] /QA/admin.php | INFO: Tag[ app_begin ] --START--
+[ 2016-05-30T20:39:49+08:00 ] /QA/admin.php | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+[ 2016-05-30T20:39:49+08:00 ] /QA/admin.php | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002000s ]
+[ 2016-05-30T20:39:58+08:00 ] /QA/admin.php | ERR: (ThinkException) Access denied for user 'root'@'localhost' (using password: NO)
+[ 2016-05-30T20:40:00+08:00 ] /QA/admin.php | ERR: (ThinkException) Access denied for user 'root'@'localhost' (using password: NO)
+[ 2016-05-30T20:40:34+08:00 ] /QA/admin.php | ERR: (ThinkException) Access denied for user 'root'@'localhost' (using password: NO)
+[ 2016-05-30T20:40:36+08:00 ] /QA/admin.php | ERR: (ThinkException) Access denied for user 'root'@'localhost' (using password: NO)
+[ 2016-05-30T20:42:05+08:00 ] /QA/admin.php | ERR: (ThinkException) Access denied for user 'root'@'localhost' (using password: NO)
+[ 2016-05-30T20:42:07+08:00 ] /QA/admin.php | ERR: (ThinkException) Access denied for user 'root'@'localhost' (using password: NO)
+[ 2016-05-30T20:42:36+08:00 ] /QA/admin.php | ERR: (ThinkException) Access denied for user 'root'@'localhost' (using password: NO)
+[ 2016-05-30T20:42:38+08:00 ] /QA/admin.php | ERR: (ThinkException) Access denied for user 'root'@'localhost' (using password: NO)
+[ 2016-05-30T20:47:21+08:00 ] /QA/admin.php | INFO: Tag[ app_begin ] --START--
+[ 2016-05-30T20:47:21+08:00 ] /QA/admin.php | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+[ 2016-05-30T20:47:21+08:00 ] /QA/admin.php | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002000s ]
+[ 2016-05-30T20:47:21+08:00 ] /QA/admin.php | SQL: SHOW COLUMNS FROM `wl_category` [ RunTime:0.008000s ]
+[ 2016-05-30T20:47:21+08:00 ] /QA/admin.php | SQL: SELECT * FROM `wl_category` LIMIT 1   [ RunTime:0.001000s ]
+[ 2016-05-30T20:47:21+08:00 ] /QA/admin.php | INFO: Tag[ view_template ] --START--
+[ 2016-05-30T20:47:21+08:00 ] /QA/admin.php | INFO: Run LocationTemplate Behavior [ RunTime:0.002000s ]
+[ 2016-05-30T20:47:21+08:00 ] /QA/admin.php | INFO: Tag[ view_template ] --END-- [ RunTime:0.002000s ]
+[ 2016-05-30T20:47:21+08:00 ] /QA/admin.php | INFO: Tag[ view_parse ] --START--
+[ 2016-05-30T20:47:21+08:00 ] /QA/admin.php | INFO: Run ParseTemplate Behavior [ RunTime:0.018001s ]
+[ 2016-05-30T20:47:21+08:00 ] /QA/admin.php | INFO: Tag[ view_parse ] --END-- [ RunTime:0.018001s ]
+[ 2016-05-30T20:47:21+08:00 ] /QA/admin.php | INFO: Tag[ view_filter ] --START--
+[ 2016-05-30T20:47:21+08:00 ] /QA/admin.php | INFO: Run ContentReplace Behavior [ RunTime:0.002000s ]
+[ 2016-05-30T20:47:21+08:00 ] /QA/admin.php | INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+[ 2016-05-30T20:47:21+08:00 ] /QA/admin.php | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001001s ]
+[ 2016-05-30T20:47:21+08:00 ] /QA/admin.php | INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+[ 2016-05-30T20:47:21+08:00 ] /QA/admin.php | INFO: Tag[ view_filter ] --END-- [ RunTime:0.005001s ]
+[ 2016-05-30T20:47:21+08:00 ] /QA/admin.php | INFO: Tag[ view_end ] --START--
+[ 2016-05-30T20:47:21+08:00 ] /QA/admin.php | INFO: Run ShowPageTrace Behavior [ RunTime:0.002000s ]
+[ 2016-05-30T20:47:21+08:00 ] /QA/admin.php | INFO: Tag[ view_end ] --END-- [ RunTime:0.002000s ]
+[ 2016-05-30T21:03:23+08:00 ] /QA/admin.php | INFO: Tag[ app_begin ] --START--
+[ 2016-05-30T21:03:23+08:00 ] /QA/admin.php | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+[ 2016-05-30T21:03:23+08:00 ] /QA/admin.php | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002000s ]
+[ 2016-05-30T21:03:23+08:00 ] /QA/admin.php | SQL: SHOW COLUMNS FROM `wl_category` [ RunTime:0.011000s ]
+[ 2016-05-30T21:03:23+08:00 ] /QA/admin.php | SQL: SELECT * FROM `wl_category` LIMIT 1   [ RunTime:0.001000s ]
+[ 2016-05-30T21:03:23+08:00 ] /QA/admin.php | INFO: Tag[ view_template ] --START--
+[ 2016-05-30T21:03:23+08:00 ] /QA/admin.php | INFO: Run LocationTemplate Behavior [ RunTime:0.002001s ]
+[ 2016-05-30T21:03:23+08:00 ] /QA/admin.php | INFO: Tag[ view_template ] --END-- [ RunTime:0.002001s ]
+[ 2016-05-30T21:03:23+08:00 ] /QA/admin.php | INFO: Tag[ view_parse ] --START--
+[ 2016-05-30T21:03:23+08:00 ] /QA/admin.php | INFO: Run ParseTemplate Behavior [ RunTime:0.017001s ]
+[ 2016-05-30T21:03:23+08:00 ] /QA/admin.php | INFO: Tag[ view_parse ] --END-- [ RunTime:0.017001s ]
+[ 2016-05-30T21:03:23+08:00 ] /QA/admin.php | INFO: Tag[ view_filter ] --START--
+[ 2016-05-30T21:03:23+08:00 ] /QA/admin.php | INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+[ 2016-05-30T21:03:23+08:00 ] /QA/admin.php | INFO: Run TokenBuild Behavior [ RunTime:0.002000s ]
+[ 2016-05-30T21:03:23+08:00 ] /QA/admin.php | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-05-30T21:03:23+08:00 ] /QA/admin.php | INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+[ 2016-05-30T21:03:23+08:00 ] /QA/admin.php | INFO: Tag[ view_filter ] --END-- [ RunTime:0.005000s ]
+[ 2016-05-30T21:03:23+08:00 ] /QA/admin.php | INFO: Tag[ view_end ] --START--
+[ 2016-05-30T21:03:23+08:00 ] /QA/admin.php | INFO: Run ShowPageTrace Behavior [ RunTime:0.002000s ]
+[ 2016-05-30T21:03:23+08:00 ] /QA/admin.php | INFO: Tag[ view_end ] --END-- [ RunTime:0.002000s ]
+[ 2016-05-30T23:02:37+08:00 ] /QA/admin.php | INFO: Tag[ app_begin ] --START--
+[ 2016-05-30T23:02:37+08:00 ] /QA/admin.php | INFO: Run ReadHtmlCache Behavior [ RunTime:0.003000s ]
+[ 2016-05-30T23:02:37+08:00 ] /QA/admin.php | INFO: Tag[ app_begin ] --END-- [ RunTime:0.003000s ]
+[ 2016-05-30T23:02:37+08:00 ] /QA/admin.php | SQL: SHOW COLUMNS FROM `wl_category` [ RunTime:0.009001s ]
+[ 2016-05-30T23:02:37+08:00 ] /QA/admin.php | SQL: SELECT * FROM `wl_category` LIMIT 1   [ RunTime:0.000000s ]
+[ 2016-05-30T23:02:37+08:00 ] /QA/admin.php | INFO: Tag[ view_template ] --START--
+[ 2016-05-30T23:02:37+08:00 ] /QA/admin.php | INFO: Run LocationTemplate Behavior [ RunTime:0.002000s ]
+[ 2016-05-30T23:02:37+08:00 ] /QA/admin.php | INFO: Tag[ view_template ] --END-- [ RunTime:0.002000s ]
+[ 2016-05-30T23:02:37+08:00 ] /QA/admin.php | INFO: Tag[ view_parse ] --START--
+[ 2016-05-30T23:02:37+08:00 ] /QA/admin.php | INFO: Run ParseTemplate Behavior [ RunTime:0.018001s ]
+[ 2016-05-30T23:02:37+08:00 ] /QA/admin.php | INFO: Tag[ view_parse ] --END-- [ RunTime:0.018001s ]
+[ 2016-05-30T23:02:37+08:00 ] /QA/admin.php | INFO: Tag[ view_filter ] --START--
+[ 2016-05-30T23:02:37+08:00 ] /QA/admin.php | INFO: Run ContentReplace Behavior [ RunTime:0.002000s ]
+[ 2016-05-30T23:02:37+08:00 ] /QA/admin.php | INFO: Run TokenBuild Behavior [ RunTime:0.002000s ]
+[ 2016-05-30T23:02:37+08:00 ] /QA/admin.php | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-05-30T23:02:37+08:00 ] /QA/admin.php | INFO: Run ShowRuntime Behavior [ RunTime:0.002001s ]
+[ 2016-05-30T23:02:37+08:00 ] /QA/admin.php | INFO: Tag[ view_filter ] --END-- [ RunTime:0.007001s ]
+[ 2016-05-30T23:02:37+08:00 ] /QA/admin.php | INFO: Tag[ view_end ] --START--
+[ 2016-05-30T23:02:37+08:00 ] /QA/admin.php | INFO: Run ShowPageTrace Behavior [ RunTime:0.002000s ]
+[ 2016-05-30T23:02:37+08:00 ] /QA/admin.php | INFO: Tag[ view_end ] --END-- [ RunTime:0.002000s ]
+[ 2016-05-30T23:44:50+08:00 ] /QA/admin.php | INFO: Tag[ app_begin ] --START--
+[ 2016-05-30T23:44:50+08:00 ] /QA/admin.php | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+[ 2016-05-30T23:44:50+08:00 ] /QA/admin.php | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002000s ]
+[ 2016-05-30T23:44:51+08:00 ] /QA/admin.php | SQL: SHOW COLUMNS FROM `wl_category` [ RunTime:0.011001s ]
+[ 2016-05-30T23:44:51+08:00 ] /QA/admin.php | SQL: SELECT * FROM `wl_category` LIMIT 1   [ RunTime:0.001000s ]
+[ 2016-05-30T23:44:51+08:00 ] /QA/admin.php | INFO: Tag[ view_template ] --START--
+[ 2016-05-30T23:44:51+08:00 ] /QA/admin.php | INFO: Run LocationTemplate Behavior [ RunTime:0.002000s ]
+[ 2016-05-30T23:44:51+08:00 ] /QA/admin.php | INFO: Tag[ view_template ] --END-- [ RunTime:0.002000s ]
+[ 2016-05-30T23:44:51+08:00 ] /QA/admin.php | INFO: Tag[ view_parse ] --START--
+[ 2016-05-30T23:44:51+08:00 ] /QA/admin.php | INFO: Run ParseTemplate Behavior [ RunTime:0.019001s ]
+[ 2016-05-30T23:44:51+08:00 ] /QA/admin.php | INFO: Tag[ view_parse ] --END-- [ RunTime:0.019001s ]
+[ 2016-05-30T23:44:51+08:00 ] /QA/admin.php | INFO: Tag[ view_filter ] --START--
+[ 2016-05-30T23:44:51+08:00 ] /QA/admin.php | INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+[ 2016-05-30T23:44:51+08:00 ] /QA/admin.php | INFO: Run TokenBuild Behavior [ RunTime:0.002000s ]
+[ 2016-05-30T23:44:51+08:00 ] /QA/admin.php | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-05-30T23:44:51+08:00 ] /QA/admin.php | INFO: Run ShowRuntime Behavior [ RunTime:0.002000s ]
+[ 2016-05-30T23:44:51+08:00 ] /QA/admin.php | INFO: Tag[ view_filter ] --END-- [ RunTime:0.006000s ]
+[ 2016-05-30T23:44:51+08:00 ] /QA/admin.php | INFO: Tag[ view_end ] --START--
+[ 2016-05-30T23:44:51+08:00 ] /QA/admin.php | INFO: Run ShowPageTrace Behavior [ RunTime:0.003000s ]
+[ 2016-05-30T23:44:51+08:00 ] /QA/admin.php | INFO: Tag[ view_end ] --END-- [ RunTime:0.003000s ]

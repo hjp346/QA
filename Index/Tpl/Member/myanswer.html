@@ -1,0 +1,51 @@
+
+<!--HTML head头部-->
+<include file="Common:head"/>
+
+  <body>
+    <!--导航、搜索栏-->
+<include file="Common:top"/>
+<!--内容页-->
+
+<div>
+  <div class="row-fluid">
+    <div class="span3">
+      <!--Sidebar content-->
+
+   
+
+   
+     <a href=''><h5><i class="icon-user"></i> {$user.username}</h5></a>
+     
+        
+          
+        
+    
+    
+ 
+<ul class="nav nav-tabs nav-stacked" style="background-color:#DFF0DB">
+<li> <a href="{:U('Member/index',array('id'=>$user['id']))}">他的首页</a></li>
+<li>  <a href="{:U('Member/myask',array('id'=>$user['id']))}">他的提问</a></li>
+<li style="background-color:#EEEEEE"> <a href="{:U('Member/myanswer',array('id'=>$user['id']))}">他的回答</a></li>
+</ul>
+</div>
+ 
+    <div class="span9">
+      <!--Body content-->
+
+       <table class='table table-bordered'>
+     
+        <tr style="background-color:#DFF0DB"><td width="400">回答过的问题</td><td>回答数</td><td>时间</td></tr>
+        <foreach name='myAnswer' item='v'>
+        <tr><td  width="400"><a href="{:U('Show/index',array('id'=>$v['id']))}">{$v.ask_content}</a></td><td>{$v.answer}</td><td>{$v.ask_time|date="Y-m-d H:i",###}</td></tr>
+
+        </foreach>
+     
+       </table>
+
+
+<!--遮罩框（登录、注册）-->
+<include file="Common:zhezhao"/>
+
+  </body>
+</html>

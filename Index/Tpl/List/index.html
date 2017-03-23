@@ -1,0 +1,66 @@
+
+<!--HTML head头部-->
+<include file="Common:head"/>
+
+  <body>
+        <!--导航、搜索栏-->
+<include file="Common:top"/>
+<div id='location'>
+    <a href="{:U('List/index')}">全部分类</a>
+    <if condition='isset($_GET["id"])'>&nbsp;&gt;&nbsp;
+      <location cid='$_GET["id"]'>
+        <if condition='$id == $_GET["id"]'>
+          {$v.cate_name}
+        <else/>
+          <a href="{:U('List/index', array('id' => $id))}">{$v.cate_name}</a>&nbsp;&gt;&nbsp;
+        </if>
+      </location>
+    </if>
+  </div>
+
+<div id='cate-list' style="margin-top:20px;">
+        <p class='title'>按分类查找</p>
+        <div>
+       
+          <foreach name='cate' item='v'>
+            <div style="width:150px;height:40px;float:left;">
+              <a href="{:U('index', array('id' => $v['id']))}">{$v.cate_name}</a>
+            </div>
+          </foreach>
+        
+          
+        </div>
+      </div>
+<!--内容页-->
+ <div>
+    
+      <!--Sidebar content-->
+        
+             
+       <table class="table table-bordered">
+         <tr style="background-color:#DFF0DB"><td width="500">待解决问题</td><td>回答数</td><td>时间</td></tr>
+         <foreach name='wait' item='v'>
+          <tr><td width="500"><a href="{:U('Show/index',array('id'=>$v['id']))}">{$v.ask_content}</a></td><td>{$v.answer}</td><td>{$v.ask_time|date="Y-m-d H:i",###}</td></tr>
+          </foreach>
+       </table>
+
+        <table class="table table-bordered">
+        
+         <tr style="background-color:#DFF0DB"><td width="500">已解决问题</td><td>回答数</td><td>时间</td></tr>
+         <foreach name="solve" item="v">
+         <tr><td width="500"> <a href="{:U('Show/index',array('id'=>$v['id']))}">{$v.ask_content}</a></td><td>{$v.answer}</td><td>{$v.ask_time|date="Y-m-d H:i",###}</td></tr>
+         </foreach>
+       </table>
+
+
+    </div>
+
+
+ </div>
+
+
+<!--遮罩框（登录、注册）-->
+<include file="Common:zhezhao"/>
+
+  </body>
+</html>

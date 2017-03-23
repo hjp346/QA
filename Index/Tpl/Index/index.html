@@ -1,0 +1,150 @@
+
+<!--HTML head头部-->
+<include file="Common:head"/>
+
+  <body>
+       <!--导航、搜索栏-->
+<include file="Common:top"/>
+<!--内容页-->
+<div >
+  <div class="row-fluid">
+    <div class="span3"   >
+      <!--Sidebar content-->
+      <div class="lanmu">
+        <table class='table'> 
+        <foreach name='cate' item='v'>
+    
+  
+             
+               <tr style="background-color:#DFF0DB"><td><h7>{$v.cate_name}</h7></td></tr>
+             
+               <for start='0' end='count($v["child"])' name='i'>
+                <tr style="float:left;">
+                
+               <td><a href="{:U('List/index',array('id'=>$v['child'][$i]['id']))}">{$v['child'][$i]['cate_name']}</a></td>
+                
+             </tr>
+           
+                 </for>
+              
+      
+    
+
+  
+ </foreach>
+</table>
+       </div>
+      
+
+
+
+   
+      
+    </div>
+    <div class="span6"  >
+      <!--Body content-->
+      <table class='table table-bordered'>
+      <tr style="background-color:#DFF0DB">
+        
+          <td width="250">待解决问题</td>
+         <td> 回答数</td>
+         <td>时间</td>
+        
+        <foreach name='wait' item='v'>
+          <tr>
+            <td width="250"><a href="{:U('Show/index',array('id'=>$v['id']))}">{$v.ask_content}</a></td>
+            <td><span>{$v.answer}</span></td>
+            <td>{$v.ask_time|time_format=###}</td>
+          </tr>
+        </foreach>
+
+      </dl>
+    </table>
+
+       <table class='table table-bordered'>
+      <tr style="background-color:#DFF0DB">
+        
+          <td width="250">已解决问题</td>
+         <td>回答数</td>
+         <td>时间</td>
+        
+        <foreach name='solve' item='v'>
+          <tr>
+            <td width="250"><a href="{:U('Show/index',array('id'=>$v['id']))}">{$v.ask_content}</a></td>
+            <td><span>{$v.answer}</span></td>
+            <td>{$v.ask_time|time_format=###}</td>
+          </tr>
+        </foreach>
+
+      </dl>
+    </table>
+
+
+
+
+
+    </div>
+    <div class="span3"  >
+      <!--Body content-->
+
+      
+
+
+
+
+
+
+<div style="height:auto;overflow:hidden;">
+  <ul>
+      <if condition='!isset($_SESSION["username"])'>
+ 
+  <li  class="login"><a href="#" onclick="showBg1();" class="btn btn-success" style="float:left;">登录</a></li>
+   <li>
+    <a href="#" onclick="showBg2();" class="btn btn-success fl"  style="float:left;margin-left:10px;">注册</a>
+  </li>
+ <else/>
+     <blockquote><a href="{:U('Member/index',array('id'=>$_SESSION['uid']))}" style="font-size:24px;"> {$_SESSION['username']}</a></blockquote>
+     
+
+     
+      <div style="font-size:16px;color:green;">等级:{$level}</div>
+      <div style="font-size:16px;color:green;">经验:{$info['experience']}</div>
+      <div style="font-size:16px;color:green;">金币:{$info['money']}</div>
+   </if>
+</ul>
+</div>
+
+
+
+<div class='star-list' style="margin-top:20px;">
+    <p class='title'>热门用户</p>
+   <table class='table table-bordered'>
+    <tr style="background-color:#DFF0DB">
+     <td>用户名</td>
+ 
+     <td>帮助过的人</td>
+    </tr>
+    <foreach name='user' item='v'>
+     <tr>
+     <td><a href="{:U('Member/index',array('id'=>$v['id']))}">{$v['username']}</a></td>
+ 
+     <td>{$v['adopt']}</td>
+    </tr>
+    </foreach>  
+   </table>
+  </div>
+
+
+    </div>
+  </div>
+</div>
+
+
+</div>
+
+
+<!--遮罩框（登录、注册）-->
+<include file="Common:zhezhao"/>
+
+  </body>
+</html>

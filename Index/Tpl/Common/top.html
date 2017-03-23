@@ -1,0 +1,44 @@
+ <!--导航栏-->
+
+<ul class="nav nav-pills" style="background-color:#73C9E3;">
+      <if condition='!isset($_SESSION["username"])'>
+  <li style="float:right">
+    <a href="#" onclick="showBg2();">注册</a>
+  </li>
+  <li style="float:right" class="login"><a href="#" onclick="showBg1();">登录</a></li>
+ <else/>
+   <li style="float:right">
+    <a href="{:U('Index/logout')}"><i class="icon-off"></i> 退出</a>
+  </li>
+  <li style="float:right" class="login"><a href="{:U('Member/index',array('id'=>$_SESSION['uid']))}"><i class="icon-user"></i> {$_SESSION['username']}</a></li>
+   </if>
+</ul>
+
+
+
+
+<div class="container">
+
+
+
+
+
+<!--搜索框-->
+<div>
+<span style="float:left;font-size:24px;color:black;margin-left:80px;">问答系统</span>
+<form action="{:U('Search/index')}" method="post" class="form-search"  style="margin-left:350px">
+  <input type="text" name="searchContent" class="input-medium search-query">
+  <input type="submit" value="搜索" class="btn btn-info">
+   <a  href="{:U('Ask/index')}" class="btn">提问</a>
+</form>
+</div>
+
+<!--导航-->
+<ul class="nav nav-pills" style="background-color:#73C9E3">
+  <li>
+    <a href="{:U('Index/index')}"><i class="icon-home"></i> <span>首页</span></a>
+
+  </li>
+
+ 
+</ul>
